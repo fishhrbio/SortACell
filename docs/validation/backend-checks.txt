@@ -1,0 +1,23 @@
+SortACell backend review checkpoint
+Date: 2026-11-18
+Platform tested: Windows, Python 3.12.14
+
+Command: python -m pytest -q
+Result: 24 passed, 1 warning in 53.31s
+Warning: StarletteDeprecationWarning: Using httpx with starlette.testclient is deprecated; install httpx2 instead.
+
+Command: python -m ruff check backend tests
+Result: All checks passed!
+
+Command: python -m ruff format --check backend tests
+Result: 6 files already formatted
+
+Command: python -m pip check
+Result: No broken requirements found.
+
+Actual-loopback-server check: see server-smoke.json.
+48 synthetic objects were segmented and 48 CSV records exported.
+The smoke server was stopped after verification.
+
+No frontend build or browser tests have been run. The frontend application is not implemented yet.
+No independent biological accuracy evaluation has been run.

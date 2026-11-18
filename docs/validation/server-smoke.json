@@ -1,0 +1,22 @@
+{
+  "health": {
+    "status": "ok",
+    "name": "SortACell",
+    "version": "0.1.0",
+    "storage": "local",
+    "scientificValidation": "unvalidated"
+  },
+  "apiDocs": "HTTP 200",
+  "preview": "PNG",
+  "jobStatus": "finished",
+  "objectCount": 48,
+  "csvRows": 48,
+  "suggestionCounts": {
+    "uncertain": 6,
+    "S-like": 20,
+    "G1-like": 17,
+    "G2/M-like": 5
+  },
+  "binding": "127.0.0.1",
+  "serverStoppedAfterCheck": true
+}
